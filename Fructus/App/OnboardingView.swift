@@ -10,6 +10,7 @@ import SwiftUI
 struct OnboardingView: View {
     //MARK: - PROPERTIES
     var fruits: [Fruit] = fruitsData
+    
     //MARK: - FUNCTIONS
     //MARK: - BODY
     var body: some View {

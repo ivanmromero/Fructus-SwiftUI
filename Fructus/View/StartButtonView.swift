@@ -11,7 +11,6 @@ struct StartButtonView: View {
     //MARK: - PROPERTIES
     @AppStorage("isOnboarding") var isOnboarding: Bool?
     
-    
     //MARK: - FUNCTIONS
     //MARK: - BODY
     var body: some View {
@@ -30,7 +29,6 @@ struct StartButtonView: View {
             )
         }
         .tint(.white)
-
     }
 }
 
