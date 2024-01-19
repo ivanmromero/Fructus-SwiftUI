@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct SourceLinkView: View {
+    //MARK: - PROPERTIES
+    //MARK: - FUNCTIONS
+    //MARK: - BODY
     var body: some View {
         GroupBox {
             HStack(content: {
@@ -21,6 +24,7 @@ struct SourceLinkView: View {
     }
 }
 
+//MARK: - PREVIEW
 #Preview(traits: .sizeThatFitsLayout) {
     SourceLinkView()
         .padding()
